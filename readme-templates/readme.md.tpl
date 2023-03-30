@@ -26,7 +26,7 @@ ___
 {% include "./actions/readme-templates/readme_platform_orchestrator.md" ignore missing %}
 {% endif %}
 {% if (integration_type == "pam") and (about is defined) %}
-{% include "./actions/readme-templates/readme_platform_pam.md" ignore missing %}
+{% include "./actions/readme-templates/readme_platform_pam.md" %}
 {% endif %}
 ---
 {% endif %}
